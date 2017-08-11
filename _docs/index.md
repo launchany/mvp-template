@@ -1,50 +1,39 @@
 ---
-title: Welcome
+title: Welcome and Get Started
 permalink: /docs/home/
 redirect_from: /docs/index.html
 ---
 
-## Getting started
+# Welcome to the documentation for [name of API]!
 
-[GitHub Pages](https://pages.github.com) can automatically generate and serve the website for you.
-Let's say you have a username/organisation `my-org` and project `my-proj`; if you locate Jekyll source under `docs` folder of master branch in your repo `github.com/my-org/my-proj`, the website will be served on `my-org.github.io/my-proj`.
-The good thing about coupling your documentation with the source repo is, whenever you merge features with regarding content to master branch, it will also be published in the webpage instantly.
+## Get started
 
-1. Just download the source from [github.com/aksakalli/jekyll-doc-theme](https://github.com/aksakalli/jekyll-doc-theme/master) into your repo under `docs` folder.
-2. Edit site settings in  `_config.yml` file according to your project.
-3. Replace `favicon.ico` and `img/logonav.png` with your own logo.
+[Name of API] is a [type - RESTful, SOAP, platform-based] API that you can use to:
 
-## Writing content
+* [Brief example use case - 1 sentence]
+* [Brief example use case - 1 sentence]
+* [Brief example use case - 1 sentence]
 
-### Docs
+[Name of API] uses [protocol for requests, such as HTTP protocols `GET`, `POST`, `PUT`, and `DELETE`]. Responses are returned in [language] format. [Other items to mention about requests and responses, if applicable: whether users can specify the response language using the `ACCEPT` header.]
 
-Docs are [collections](https://jekyllrb.com/docs/collections/) of pages stored under `_docs` folder. To create a new page:
+To access [name of API], you'll need [describe access requirements, which might include an account with your product, an authentication token, username/password, or other credentials].
 
-**1.** Create a new Markdown as `_docs/my-page.md` and write [front matter](https://jekyllrb.com/docs/frontmatter/) & content such as:
+The base URL is [your API's base URL]. Each user is limited to [number] requests per second. If you exceed this rate limit, [explain what happens if rate limit is exceeded---for example, will users see an error response?].
 
-```
----
-title: My Page
-permalink: /docs/my-page/
----
+## Authentication
 
-Hello World!
-```
+[Details in this section will vary based on your authentication method, but make sure to explain these things:
 
-**2.** Add the pagename to `_data/docs.yml` file in order to list in docs navigation panel:
+* If your API requires an authentication token or key, how do users get one?
+* If authentication tokens or keys expire, what's the expiration interval? How do users refresh expired tokens or keys?
+* How do users pass authentication information to your API? For example, do they use an Authorization header?
 
-```
-- title: My Group Title
-  docs:
-  - my-page
-```
+The prompts in this section assume that users will need an authentication token and the token should be kept private.]
 
-### Blog posts
+You'll need to include an [authentication token] with all of your requests to [name of API]. Anyone with your [authentication token] can access your data through our API, so keep your [authentication token] private. Don't share it with other users, and make sure to remove it from any code samples.
 
-Add a new Markdown file such as `2017-05-09-my-post.md` and write the content similar to other post examples.
+To get your [authentication token], [explain how to get the token---for example, contact Customer Support, send a call with your username and password to the API, or go to your account at our website].
 
-### Pages
+[Authentication tokens] expire [list expiration interval - for example, every 2 weeks or after 1 year]. If your [authentication token] expires, [explain how to refresh - for example, contact Customer Support or go to your customer account and click "Refresh Token"].
 
-The home page is located under `index.html` file. You can change the content or design completely different welcome page for your taste. (You can use [bootstrap componenets](http://getbootstrap.com/components/))
-
-In order to add a new page, create a new html or markdown file under root directory and link it in `_includes/topnav.html`.
+To pass your authentication information with your API requests, [explain how to pass authentication token---for example, use the authorization header in cURL].
