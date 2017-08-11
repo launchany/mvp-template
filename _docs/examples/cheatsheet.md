@@ -1,5 +1,5 @@
 ---
-title: Markdown Cheatsheet
+title: Markdown cheatsheet
 permalink: /docs/cheatsheet/
 ---
 

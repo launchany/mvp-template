@@ -3,12 +3,11 @@ title: Workflows
 permalink: /docs/workflows/
 ---
 
+[Describe the optimal or assumed workflows for a few things users can accomplish with your API. Think about the most common and highest-impact outcomes. Each workflow should walk users through a brief explanation, any prerequisites, and the steps involved in completing the outcome with your API, including the reasons users must take each step and the API call required to finish the step.
 
-Describe the optimal or assumed workflows for a few things users can accomplish with your API. Think about the most common and highest-impact outcomes. Each workflow should walk users through a brief explanation, any prerequisites, and the steps involved in completing the outcome with your API, including the reasons users must take each step and the API call required to finish the step.
+Here's an example workflow for an API that allows you to retrieve and update timesheet records.
 
-[Here's an example workflow for an API that allows you to retrieve and update timesheet records.
-
-## Add a description to explain overtime on employee's timesheet
+### Add a description to explain overtime on employee's timesheet
 
 You asked an employee, Meghan, to work 2 hours of overtime last Thursday. To make sure Payroll approves Meghan's timesheet with the extra 2 hours, you need to add a description.
 

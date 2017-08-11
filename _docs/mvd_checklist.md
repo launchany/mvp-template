@@ -1,8 +1,7 @@
 ---
-title: MVD Checklist
+title: MVD checklist
 permalink: /docs/mvd_checklist/
 ---
-
 
 Use this checklist to help you complete your minimum viable API documentation.
 

@@ -1,5 +1,5 @@
 ---
-title: About this Template
+title: About this template
 permalink: /docs/about_template/
 ---
 

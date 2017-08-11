@@ -1,8 +1,7 @@
 ---
-title: Bootstrap Features
+title: Bootstrap features
 permalink: /docs/bootstrap/
 ---
-
 
 ## Buttons
 <p>

@@ -1,5 +1,5 @@
 ---
-title: Code Samples
+title: Code samples
 permalink: /docs/code_samples/
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Publishing Options
+title: Publishing options
 permalink: /docs/publishing_options/
 ---
 
