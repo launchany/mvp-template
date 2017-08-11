@@ -149,5 +149,3 @@ Code | Message | Meaning
 [HTTP or error code] | [Message for the code, such as "Not Found"] | [Brief description of what the code means within your API, such as "We couldn't complete your request right now"]
 [HTTP or error code] | [Message for the code, such as "Not Found"] | [Brief description of what the code means within your API, such as "We couldn't complete your request right now"]
 
-
-{% include links.html %}

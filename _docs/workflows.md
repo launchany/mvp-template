@@ -36,5 +36,3 @@ curl --request PUT \
 
 Now, if you send another request for Meghan's timesheet for May 25, 2017 (like you did in Step 1), you will see the description you added at the end of the JSON object in the response.]
 
-
-{% include links.html %}
