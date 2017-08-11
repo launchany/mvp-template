@@ -1,8 +1,6 @@
 ---
-title: About this template
-sidebar: mydoc_sidebar
-permalink: mydoc_about_template.html
-folder: mydoc
+title: About this Template
+permalink: /docs/about_template/
 ---
 
 This minimum API documentation template was developed by James Higginbotham and Hillary Fraley.
@@ -11,4 +9,3 @@ James provides API strategy, product, and design consulting and training through
 
 Hillary is a technical writer. Her website is [www.setcorrect.com](http://www.setcorrect.com), and she's [hillaryfraley](https://github.com/hillaryfraley) on GitHub.
 
-{% include links.html %}

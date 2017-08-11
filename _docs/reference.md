@@ -1,10 +1,9 @@
 ---
 title: Reference
-sidebar: mydoc_sidebar
-permalink: mydoc_reference.html
-folder: mydoc
-summary: The *Reference* includes all the information users need to know to use your endpoints. That means you'll repeat the information below for each endpoint in your API.
+permalink: /docs/reference/
 ---
+
+[The *Reference* includes all the information users need to know to use your endpoints. That means you'll repeat the information below for each endpoint in your API.]
 
 ## [Retrieve a record]
 

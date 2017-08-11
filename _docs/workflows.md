@@ -1,10 +1,10 @@
 ---
 title: Workflows
-sidebar: mydoc_sidebar
-permalink: mydoc_workflows.html
-folder: mydoc
-summary: Describe the optimal or assumed workflows for a few things users can accomplish with your API. Think about the most common and highest-impact outcomes. Each workflow should walk users through a brief explanation, any prerequisites, and the steps involved in completing the outcome with your API, including the reasons users must take each step and the API call required to finish the step.
+permalink: /docs/workflows/
 ---
+
+
+Describe the optimal or assumed workflows for a few things users can accomplish with your API. Think about the most common and highest-impact outcomes. Each workflow should walk users through a brief explanation, any prerequisites, and the steps involved in completing the outcome with your API, including the reasons users must take each step and the API call required to finish the step.
 
 [Here's an example workflow for an API that allows you to retrieve and update timesheet records.
 

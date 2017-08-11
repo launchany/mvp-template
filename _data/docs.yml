@@ -1,11 +1,18 @@
-- title: Getting Started
+- title: Documentation
   docs:
   - home
+  - workflows
+  - code_samples
+  - reference
+
+- title: More information
+  docs:
+  - mvd_checklist
+  - publishing_options
+
+- title: About
+  docs:
+  - about_template
+  - about_theme
   - themes
   - customization
-
-- title: Examples
-  docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap

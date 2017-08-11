@@ -1,8 +1,6 @@
 ---
-title: Publishing options
-sidebar: mydoc_sidebar
-permalink: mydoc_publishing_options.html
-folder: mydoc
+title: Publishing Options
+permalink: /docs/publishing_options/
 ---
 
 Here are some options for publishing Markdown source files as HTML:
@@ -12,4 +10,3 @@ Here are some options for publishing Markdown source files as HTML:
 * [MkDocs](http://www.mkdocs.org)
 * [MDwiki](http://dynalon.github.io/mdwiki/#!index.md)
 
-{% include links.html %}

@@ -1,10 +1,10 @@
 ---
-title: MVD checklist
-sidebar: mydoc_sidebar
-permalink: mydoc_mvd_checklist.html
-folder: mydoc
-summary: Use this checklist to help you complete your minimum viable API documentation.
+title: MVD Checklist
+permalink: /docs/mvd_checklist/
 ---
+
+
+Use this checklist to help you complete your minimum viable API documentation.
 
 Section | Questions to answer | Information to include
 ------- | ------------------- | ----------------------
@@ -26,5 +26,3 @@ Reference | What do users need to know to use each endpoint? | For each endpoint
 | | Example response
 | | List of each element in the example response, including type and description
 | | List of error and status codes, including the code, message, and meaning
-
-{% include links.html %}
