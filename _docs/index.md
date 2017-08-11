@@ -1,7 +1,6 @@
 ---
 title: Welcome and Get Started
-permalink: /docs/home/
-redirect_from: /docs/index.html
+permalink: /docs/index/
 ---
 
 # Welcome to the documentation for [name of API]!
