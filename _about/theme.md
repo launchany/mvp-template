@@ -3,13 +3,11 @@ title: About theme
 permalink: /about/theme/
 ---
 
-## Theme
-
 This Jekyll documentation theme was developed by [Can Güney Aksakalli](https://aksakalli.github.io).
 
 The GitHub repo for this documenation theme is [https://github.com/aksakalli/jekyll-doc-theme](https://github.com/aksakalli/jekyll-doc-theme).
 
-### Jekyll resources
+## Jekyll resources
 
 Jekyll website: [http://jekyllrb.com](http://jekyllrb.com)
 
