@@ -32,7 +32,7 @@ timezone: Europe/Berlin
 defaults:
 - scope:
     path: _about
-    type: docs
+    type: about
   values:
     layout: about
     sectionid: about
