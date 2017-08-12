@@ -11,8 +11,8 @@
     <div id="collapse-{{forloop.index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
       <ul class="list-group">
         {% for item in section.about %}
-          {% assign item_url = item | prepend:"/docs/" | append:"/" %}
-          {% assign p = site.docs | where:"url", item_url | first %}
+          {% assign item_url = item | prepend:"/about/" | append:"/" %}
+          {% assign p = site.about | where:"url", item_url | first %}
           <a class="list-group-item {% if item_url == page.url %}active{% endif %}" href="{{ p.url  | prepend: site.baseurl }}">{{ p.title }}</a>
         {% endfor %}
       </ul>
