@@ -1,6 +1,6 @@
 ---
 title: About
-permalink: /about/home/
+permalink: /about/index/
 redirect_from: /about/index.html
 ---
 
