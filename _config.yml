@@ -50,6 +50,6 @@ collections:
   docs:
     permalink: /:collection/:path/
     output: true
-  posts:
-    permalink: /blog/:year/:month/:day/:title/
+  about:
+    permalink: /:collection/:path/
     output: true
