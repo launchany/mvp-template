@@ -1,7 +1,6 @@
 ---
 title: About
 permalink: /about/index/
-redirect_from: /about/index.html
 ---
 
 ## About this template
