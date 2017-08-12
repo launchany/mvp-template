@@ -1,6 +1,6 @@
 ---
 title: Bootstrap features
-permalink: /docs/bootstrap/
+permalink: /about/bootstrap/
 ---
 
 ## Buttons
