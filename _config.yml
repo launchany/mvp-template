@@ -34,7 +34,7 @@ defaults:
     path: _about
     type: docs
   values:
-    layout: docs
+    layout: about
     sectionid: about
 
 - scope:
