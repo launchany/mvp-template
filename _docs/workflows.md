@@ -15,23 +15,23 @@ To complete this outcome, you need Meghan's employee ID number and your authenti
 
 1. Retrieve the record for Meghan's timesheet for last Thursday. Send a request to the `GET` https://api.payrollrecord.com/timesheet endpoint. Your request must include Meghan's employee ID number and the date as query parameters. Here's the complete request in cURL:
 
-```
-curl --request GET \
-  --url 'https://api.payrollrecord.com/timesheet?employee={employee ID number}&date=2017-05-25' \
-  --header 'authorization: {your authentication token}'
-```
+	```
+	curl --request GET \
+	  --url 'https://api.payrollrecord.com/timesheet?employee={employee ID number}&date=2017-05-25' \
+	  --header 'authorization: {your authentication token}'
+	```
 
 2. The JSON object in the response will include a unique ID for the timesheet for last Thursday, `timesheet_ID`. Note this ID---you will use it in the next request.
 
 3. Send a request to the `PUT` https://api.payrollrecord.com/timesheet endpoint. Your request must include the `timesheet_ID` as a query parameter and the description you want to add in the request body. Here's the complete request in cURL:
 
-```
-curl --request PUT \
-  --url 'https://api.payrollrecord.com/timesheet?timesheet_id={timesheet ID number}' \
-  --header 'authorization: {your authentication token}' \
-  --header 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \
-  --form 'description=Employee worked 2 hours of overtime to complete data entry. Overtime approved by {your name}.'
-```
+	```
+	curl --request PUT \
+	  --url 'https://api.payrollrecord.com/timesheet?timesheet_id={timesheet ID number}' \
+	  --header 'authorization: {your authentication token}' \
+	  --header 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \
+	  --form 'description=Employee worked 2 hours of overtime to complete data entry. Overtime approved by {your name}.'
+	```
 
 Now, if you send another request for Meghan's timesheet for May 25, 2017 (like you did in Step 1), you will see the description you added at the end of the JSON object in the response.]
 
