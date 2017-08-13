@@ -9,5 +9,5 @@ You can start with cURL command line code samples, but you should add samples in
 
 ## Code syntax
 
-You can specify language for your code blocks. Check out the [Markdown code and syntax highlighting](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code-and-syntax-highlighting) section in Adam Pritchard's Markdown cheatsheet for details about GitHub support for syntax highlighting.]
+To specify language for your code blocks, follow the [Markdown code and syntax highlighting](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code-and-syntax-highlighting) section in Adam Pritchard's Markdown cheatsheet.]
 
