@@ -7,9 +7,9 @@ permalink: /docs/code_samples/
 
 Use code blocks with the language specified, like this:
 
-    ```js
-    console.log('hello');
-    ````
+```js
+console.log('hello');
+````
 
 You can start with cURL command line code samples, but you should also add code samples in other languages to address common needs, such as JavaScript for web browser code and Java and Swift for mobile developers.]
 
