@@ -9,6 +9,7 @@
 
 .container {
   @include container-fixed;
+  height: 100vh;
 
   @media (min-width: $screen-sm-min) {
     width: $container-sm;
