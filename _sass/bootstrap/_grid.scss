@@ -9,7 +9,7 @@
 
 .container {
   @include container-fixed;
-  height: 100vh;
+  overflow-y: scroll;
 
   @media (min-width: $screen-sm-min) {
     width: $container-sm;
