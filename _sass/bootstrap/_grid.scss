@@ -7,9 +7,14 @@
 //
 // Set the container width, and override it for fixed navbars in media queries.
 
+body {
+  min-height: 1.1vh;
+}
+
+
 .container {
   @include container-fixed;
-  overflow-y: scroll;
+
 
   @media (min-width: $screen-sm-min) {
     width: $container-sm;
