@@ -72,6 +72,16 @@ Favicon for your documentation site.
 
 Hero image (`bg.jpg`) and logo (`logonav.png`) for your documentation site.
 
+##### `bg.jpg` specs
+
+ 
+
+##### `logonav.png` specs
+
+410px x 410px
+
+PNG file with transparent background
+
 #### mvd-template/index.html
 
 Content for the home page of your documentation site.
