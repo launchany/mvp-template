@@ -32,13 +32,15 @@ These are the individual files to update with details about your own API.
 
 #### mvd-template/_about/index.md
 
-Information about your API and documentation. If you only update content in this Markdown file, you don't need to make any changes in other files.
+Information about your API and documentation.
 
 #### mvd-template/_data/docs.yml
 
 Menu structure for Documentation pages. This is the file used by `/_includes/docs_nav.html` to build the left menu that appears on your Documentation pages.
 
 You can add to the menu sections and pages, but any pages you add to this file must be saved in your project's `_docs` folder.
+
+If you **only updated content** in `/_about/index.md`, `/_docs` Markdown files, or `/index.html`, you don't need to make any changes in this file.
 
 #### mvd-template/_docs
 
@@ -52,13 +54,17 @@ This folder also contains a checklist and list of publishing options, which you 
 
 If you delete, replace, or rename any files in this folder, make sure to update `/_data/docs.yml` to reflect your structural changes.
 
-If you only update content in these Markdown files, you don't need to make any changes in other files.
-
 #### mvd-template/_includes/topnav.html
 
 In this file specifies the text and linked pages to use in the top navigation bar.
 
 If you delete, replace, add, or rename any pages, update the "includes" listings in the `<div id="navbar" class="collapse navbar-collapse">` div to reflect your changes.
+
+If you **only updated content** in `/_about/index.md`, `/_docs` Markdown files, or `/index.html`, you don't need to make any changes in this file.
+
+#### mvd-template/index.html
+
+Content for the home page of your documentation site.
 
 ## About the theme
 
