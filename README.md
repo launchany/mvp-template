@@ -1,10 +1,12 @@
-# Minimum viable documentation (MVD) template for API docs
+# Minimum viable documentation (MVD) template for APIs
 
 This is a fill-in-the-blanks template for minimum API documentation. Replace all of the [prompts in brackets] with content that's specific to your API. When you've replaced all the bracketed prompts, you'll have the essentials documented sufficiently to help people use your API.
 
 If something in this template doesn't make sense for your API, delete it! And likewise, add any sections you need based on your API's particulars. We hope our suggestions in this template will spark more ideas about documenting features of your API to help users consume it.
 
-Most content is written in Markdown, although the homepage is written in HTML. The template itself is a Jekyll site that you can use with gh-pages. If you want to run your docs on gh-pages, here's a guide by Jonathan McGlone to help you get set up: [http://jmcglone.com/guides/github-pages/](http://jmcglone.com/guides/github-pages/).
+Here's the template demo page: [https://hillaryfraley.github.io/mvd-template/](https://hillaryfraley.github.io/mvd-template/).
+
+Most of the content is written in Markdown, although the homepage is written in HTML. The template itself is a Jekyll site that you can use with gh-pages. If you want to run your docs on gh-pages, here's a guide by Jonathan McGlone to help you get set up: [http://jmcglone.com/guides/github-pages/](http://jmcglone.com/guides/github-pages/).
 
 ## Clone this project
 
@@ -61,6 +63,14 @@ In this file specifies the text and linked pages to use in the top navigation ba
 If you delete, replace, add, or rename any pages, update the "includes" listings in the `<div id="navbar" class="collapse navbar-collapse">` div to reflect your changes.
 
 If you **only updated content** in `/_about/index.md`, `/_docs` Markdown files, or `/index.html`, you don't need to make any changes in this file.
+
+#### mvd-template/favicon.ico
+
+Favicon for your documentation site.
+
+#### mvd-template/img/
+
+Hero image (`bg.jpg`) and logo (`logonav.png`) for your documentation site.
 
 #### mvd-template/index.html
 
