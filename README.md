@@ -74,13 +74,14 @@ Hero image (`bg.jpg`) and logo (`logonav.png`) for your documentation site.
 
 ##### `bg.jpg` specs
 
- 
+* Canvas: 1920px x 1280px
+* JPG file
 
 ##### `logonav.png` specs
 
-410px x 410px
-
-PNG file with transparent background
+* Canvas 410px x 410px
+* Transparent background
+* PNG file
 
 #### mvd-template/index.html
 
