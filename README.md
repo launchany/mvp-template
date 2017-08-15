@@ -21,41 +21,46 @@ Here are GitHub's instructions for running a local copy: [https://help.github.co
 
 ## Files to update
 
-These are the files to update with details about your own API.
+These are the individual files to update with details about your own API.
 
-#### /mvd-template/_config.yml
+#### mvd-template/_config.yml
 
 * Site settings: title, email, description, baseurl, url, git_address, git_edit_address
 * Theme options: bootwatch theme you want to use to use
 * `defaults`: schemas for pages (copy, paste, and update schemas as needed when you add or update pages and groups of pages)
 * `collections`: schemas for pages (copy, paste, and update schemas as needed when you add or update pages and groups of pages)
 
-#### /mvd-template/_about/index.md
+#### mvd-template/_about/index.md
 
-Replace content with information about your API and documentation.
+Information about your API and documentation. If you only update content in this Markdown file, you don't need to make any changes in other files.
 
-#### /mvd-template/_data/about.yml
+#### mvd-template/_data/docs.yml
 
-List pages to include on About
+Menu structure for Documentation pages. This is the file used by `/_includes/docs_nav.html` to build the left menu that appears on your Documentation pages.
 
-#### /mvd-template/_data/docs.yml
+You can add to the menu sections and pages, but any pages you add to this file must be saved in your project's `_docs` folder.
 
+#### mvd-template/_docs
 
-#### /mvd-template/_config.yml
+Individual files for:
+* Get started and authentication: `index.md`
+* Workflows: `workflows.md`
+* Code samples: `code_samples.md`
+* Reference and endpoints: `reference.md`
 
+This folder also contains a checklist and list of publishing options, which you can delete from your own site.
 
+If you delete, replace, or rename any files in this folder, make sure to update `/_data/docs.yml` to reflect your structural changes.
 
-#### /mvd-template/_config.yml
+If you only update content in these Markdown files, you don't need to make any changes in other files.
 
+#### mvd-template/_includes/topnav.html
 
+In this file specifies the text and linked pages to use in the top navigation bar.
 
-#### /mvd-template/_config.yml
+If you delete, replace, add, or rename any pages, update the "includes" listings in the `<div id="navbar" class="collapse navbar-collapse">` div to reflect your changes.
 
-
-#### /mvd-template/_config.yml
-
-
-# About the theme
+## About the theme
 
 This Jekyll documentation theme was developed by [Can Güney Aksakalli](https://aksakalli.github.io).
 
