@@ -76,6 +76,7 @@ Hero image (`bg.jpg`) and logo (`logonav.png`) for your documentation site.
 
 * Canvas: 1920px x 1280px
 * JPG file
+* Uses [bootstrap Jumbotron feature](https://v4-alpha.getbootstrap.com/components/jumbotron/) 
 
 ##### `logonav.png` specs
 
