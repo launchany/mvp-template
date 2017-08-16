@@ -50,9 +50,6 @@ collections:
   docs:
     permalink: /:collection/:path/
     output: true
-  openapi:
-    permalink: /:collection/:path/
-    output: true
   about:
     permalink: /:collection/:path/
     output: true
