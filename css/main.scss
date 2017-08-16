@@ -18,6 +18,7 @@
     "bootswatch/{{site.bootwatch | downcase}}/bootswatch",
   {% endif %}
 
+  "swagger",
   "syntax-highlighting",
   "typeahead"
 ;
