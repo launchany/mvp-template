@@ -1,8 +1,8 @@
 ---
-layout: swagger
 title: Open API example
-data: example
 permalink: /openapi/example/
+---
+
 consumes:
   - application/json
   - application/xml
@@ -265,4 +265,3 @@ paths:
         responses:
             204:
               description: Product removed
----
