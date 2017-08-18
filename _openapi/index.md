@@ -1,5 +1,5 @@
 ---
-title: Open API
+title: Open API Example
 permalink: /openapi/index/
 ---
 

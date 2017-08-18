@@ -44,7 +44,7 @@ defaults:
     path: _openapi
     type: opeanapi
   values:
-    layout: about
+    layout: openapi
     sectionid: openapi
 
 - scope:
