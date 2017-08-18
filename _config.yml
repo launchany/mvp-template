@@ -44,14 +44,14 @@ defaults:
     path: _openapi
     type: opeanapi
   values:
-    layout: singlepage
+    layout: about
     sectionid: openapi
 
 - scope:
     path: _about
     type: about
   values:
-    layout: singlepage
+    layout: about
     sectionid: about
 
 collections:
