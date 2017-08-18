@@ -1,9 +1,14 @@
 ---
-title: Reference
-permalink: /docs/reference/
+title: Markdown reference example
+permalink: /docs/mdreference/
 ---
 
-[The **Reference** includes all the information users need to know to use your endpoints. That means you'll repeat the information below for each endpoint in your API.]
+[The **Reference** includes all the information users need to know to use your endpoints. That means you'll repeat the information below for each endpoint in your API.
+
+Use this page if you prefer to create Markdown files for your reference. Here's what you'll need to do:
+* Delete the OpenAPI reference example file `/_docs/openapi.md`
+* Delete the code `<li {% if page.sectionid=='docs' %} class="active" {% endif %}><a href="{{ "/docs/openapi/" | prepend: site.baseurl }}">OpenAPI</a></li>` from the file `/_includes/topnav.html`
+* Delete the `- openapi` menu item from the file `/_data/docs.yml`]
 
 ### [Retrieve a record]
 

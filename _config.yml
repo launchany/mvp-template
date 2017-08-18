@@ -41,13 +41,6 @@ defaults:
       type: "WebPage"
 
 - scope:
-    path: _openapi
-    type: opeanapi
-  values:
-    layout: openapi
-    sectionid: openapi
-
-- scope:
     path: _about
     type: about
   values:
@@ -56,9 +49,6 @@ defaults:
 
 collections:
   docs:
-    permalink: /:collection/:path/
-    output: true
-  openapi:
     permalink: /:collection/:path/
     output: true
   about:

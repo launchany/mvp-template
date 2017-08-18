@@ -3,7 +3,8 @@
   - home
   - workflows
   - code_samples
-  - reference
+  - mdreference
+  - openapi
 
 - title: More information
   docs:

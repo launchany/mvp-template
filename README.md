@@ -50,11 +50,13 @@ Individual files for:
 * Get started and authentication: `index.md`
 * Workflows: `workflows.md`
 * Code samples: `code_samples.md`
-* Reference and endpoints: `reference.md`
+* Reference and endpoints: `mdreference.md` **or** `openapi.md`
 
 This folder also contains a checklist and list of publishing options, which you can delete from your own site.
 
-If you delete, replace, or rename any files in this folder, make sure to update `/_data/docs.yml` to reflect your structural changes.
+If you delete, replace, or rename any files in this folder, make sure to update `/_data/docs.yml` and `/_includes/topnav.html` to reflect your structural changes.
+
+If you use `openapi.md` to render your reference using Swagger UI, you can edit the `.intrinsic-container` and `.intrinsic-container` iframe classes in the file `/_sass/bootstrap/_grid.scss` to change iframe formatting.
 
 #### mvd-template/_includes/topnav.html
 
