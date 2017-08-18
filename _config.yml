@@ -30,12 +30,6 @@ exclude:
   - README.md
 timezone: US/Eastern
 defaults:
-- scope:
-    path: _about
-    type: about
-  values:
-    layout: about
-    sectionid: about
 
 - scope:
     path: _docs
@@ -46,8 +40,25 @@ defaults:
     seo:
       type: "WebPage"
 
+- scope:
+    path: _openapi
+    type: opeanapi
+  values:
+    layout: singlepage
+    sectionid: openapi
+
+- scope:
+    path: _about
+    type: about
+  values:
+    layout: singlepage
+    sectionid: about
+
 collections:
   docs:
+    permalink: /:collection/:path/
+    output: true
+  openapi:
     permalink: /:collection/:path/
     output: true
   about:
