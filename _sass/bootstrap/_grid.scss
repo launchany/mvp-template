@@ -12,6 +12,7 @@ body {
 }
 
 .intrinsic-container {
+  -webkit-overflow-scrolling: touch;
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 35px;
