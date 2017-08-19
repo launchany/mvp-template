@@ -11,21 +11,16 @@ body {
   min-height: 101vh;
   padding-top: 60px;
 }
-@media (max-width: 979px) {
-  body {
-    padding-top: 0px;
-  }
-}
 
 
 .intrinsic-container {
-  -webkit-overflow-scrolling: touch;
-  overflow-y: scroll;
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 35px;
   height: 0;
   overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
 }
 
 .intrinsic-container iframe {
