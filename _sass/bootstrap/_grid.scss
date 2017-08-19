@@ -9,7 +9,14 @@
 
 body {
   min-height: 101vh;
+  padding-top: 60px;
 }
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
 
 .intrinsic-container {
   -webkit-overflow-scrolling: touch;
