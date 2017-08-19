@@ -9,9 +9,7 @@
 
 body {
   min-height: 101vh;
-  padding-top: 60px;
 }
-
 
 .intrinsic-container {
   position: relative;
@@ -19,8 +17,8 @@ body {
   padding-top: 35px;
   height: 0;
   overflow: hidden;
-  -webkit-overflow-scrolling: touch;
-  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch !important;
+  overflow-y: scroll !important;
 }
 
 .intrinsic-container iframe {
