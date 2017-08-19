@@ -17,7 +17,7 @@ body {
   padding-top: 35px;
   height: 0;
   -webkit-overflow-scrolling: touch !important;
-  overflow-y: scroll !important;
+  overflow: auto !important;
 }
 
 .intrinsic-container iframe {
