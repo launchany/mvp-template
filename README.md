@@ -19,7 +19,7 @@ cd mvd-template
 
 ### Optional: Run a local copy
 
-Here are GitHub's instructions for running a local copy: [https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
+Here are GitHub's instructions for running a local copy: [https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/).
 
 ## Files to update
 
@@ -56,7 +56,20 @@ This folder also contains a checklist and list of publishing options, which you 
 
 If you delete, replace, or rename any files in this folder, make sure to update `/_data/docs.yml` and `/_includes/topnav.html` to reflect your structural changes.
 
-If you use `openapi.md` to render your reference using Swagger UI, you can edit the `.intrinsic-container` and `.intrinsic-container` iframe classes in the file `/_sass/bootstrap/_grid.scss` to change iframe formatting.
+##### Markdown vs OpenAPI reference
+
+If you prefer to use Swagger UI to render your reference documentation instead of creating Markdown files, here's what you’ll need to do:
+* Replace the file /dist/swagger_petstore.yml with your own YAML file in your local copy of the template repo to display your spec in the iframe below
+* Delete the Markdown reference example file /_docs/mdreference.md
+* Delete the code <li class="active" ><a href="/mvd-template/docs/mdreference/">Reference</a></li> from the file /_includes/topnav.html
+* Delete the - mdreference menu item from the file /_data/docs.yml
+
+To change formatting for the iframe, edit the .intrinsic-container and .intrinsic-container iframe classes in the file /_sass/bootstrap/_grid.scss.
+
+If you prefer to create Markdown files for your reference, here’s what you’ll need to do:
+* Delete the OpenAPI reference example file /_docs/openapi.md
+* Delete the code <li class="active" ><a href="/mvd-template/docs/openapi/">OpenAPI</a></li> from the file /_includes/topnav.html
+* Delete the - openapi menu item from the file /_data/docs.yml]
 
 #### mvd-template/_includes/topnav.html
 
