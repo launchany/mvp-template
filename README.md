@@ -58,7 +58,7 @@ If you delete, replace, or rename any files in this folder, make sure to update 
 
 ##### Markdown vs OpenAPI reference
 
-If you prefer to use Swagger UI to render your reference documentation instead of creating Markdown files, here's what you’ll need to do:
+If you prefer to use [Swagger UI](https://github.com/swagger-api/swagger-ui) to render your reference documentation instead of creating Markdown files, here's what you’ll need to do:
 * Replace the file `/dist/swagger_petstore.yml` with your own YAML file in your local copy of the template repo to display your spec in the iframe
 * Delete the Markdown reference example file `/_docs/mdreference.md`
 * Delete the code `<li class="active" ><a href="/mvd-template/docs/mdreference/">Reference</a></li>` from the file `/_includes/topnav.html`
