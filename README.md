@@ -4,7 +4,7 @@ This is a fill-in-the-blanks template for minimum API documentation. Replace all
 
 If something in this template doesn't make sense for your API, delete it! And likewise, add any sections you need based on your API's particulars. We hope our suggestions in this template will spark more ideas about documenting features of your API to help users consume it.
 
-Here's the template demo page: [https://hillaryfraley.github.io/mvd-template/](https://hillaryfraley.github.io/mvd-template/).
+Here's the template demo page: [https://launchany.github.io/mvd-template/](https://launchany.github.io/mvd-template/).
 
 Most of the content is written in Markdown, although the homepage is written in HTML. The template itself is a Jekyll site that you can use with gh-pages. If you want to run your docs on gh-pages, here's a guide by Jonathan McGlone to help you get set up: [http://jmcglone.com/guides/github-pages/](http://jmcglone.com/guides/github-pages/).
 
@@ -13,7 +13,7 @@ Most of the content is written in Markdown, although the homepage is written in 
 Clone this project to get a copy of the template that you can update and personalize.
 
 ```bash
-git clone https://github.com/hillaryfraley/mvd-template.git
+git clone https://github.com/launchany/mvd-template.git
 cd mvd-template
 ```
 
