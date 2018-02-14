@@ -24,9 +24,9 @@ Use this page if you prefer to create Markdown files for your reference. Here's 
 
 Name | Type | Description | Required?
 ---- | ---- | ----------- | ---------
-[Name or parameter] | [Query or Path] | [Brief description of parameter function. What does it do?] | [Required or Optional]
-[Name or parameter] | [Query or Path] | [Brief description of parameter function. What does it do?] | [Required or Optional]
-[Name or parameter] | [Query or Path] | [Brief description of parameter function. What does it do?] | [Required or Optional]
+[Name of parameter] | [Type of parameter] | [Brief description of parameter function. What does it do?] | [Required or Optional]
+[Name of parameter] | [Type of parameter] | [Brief description of parameter function. What does it do?] | [Required or Optional]
+[Name of parameter] | [Type of parameter] | [Brief description of parameter function. What does it do?] | [Required or Optional]
 
 #### Example Request
 
