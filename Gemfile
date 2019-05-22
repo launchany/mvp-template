@@ -1,7 +1,9 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
 
-gem "jekyll", "3.4.3"
+gem "nokogiri", ">= 1.8.5"
+
+gem "jekyll", ">= 3.6.3"
 
 source 'https://rubygems.org'
 gem 'github-pages', group: :jekyll_plugins
