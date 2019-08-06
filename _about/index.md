@@ -3,7 +3,7 @@ title: About this template
 permalink: /about/index/
 ---
 
-This minimum API documentation template was developed by James Higginbotham and Hillary Fraley. For information about how to use the template, check out the [MVD-template repo README.md](https://github.com/hillaryfraley/mvd-template).
+This minimum API documentation template was developed by James Higginbotham and Hillary Fraley. For information about how to use the template, check out the [MVP-template repo README.md](https://github.com/launchany/mvp-template).
 
 James provides API strategy, product, and design consulting and training through his company, [LaunchAny](http://launchany.com). He's [jhigginbotham](https://github.com/jhigginbotham) on GitHub.
 

@@ -4,10 +4,10 @@ email: your-email@domain.com
 description: >
   Documentation for [company name]'s' [name of API].
 
-baseurl: "/mvd-template" # the subpath of your site, e.g. /blog/
-url: https://hillaryfraley.github.io/mvd-template # the base hostname & protocol for your site
-git_address: https://github.com/hillaryfraley/mvd-template
-git_edit_address: https://github.com/hillaryfraley/mvd-template/blob/gh-pages
+baseurl: "/mvp-template" # the subpath of your site, e.g. /blog/
+url: https://launchany.github.io/mvp-template # the base hostname & protocol for your site
+git_address: https://github.com/launchany/mvp-template
+git_edit_address: https://github.com/launchany/mvp-template/blob/gh-pages
 
 # Theme options from https://bootswatch.com/
 # comment-out to use default Bootstrap
