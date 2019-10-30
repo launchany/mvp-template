@@ -1,7 +1,11 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
 
-gem "nokogiri", ">= 1.8.5"
+# Dependency that has a security advisory posted for 1.2.2 - forcing latest safe version
+gem "rubyzip", "~> 2.0.0"
+
+# Updated to 1.10.x due to security advisory
+gem "nokogiri", ">= 1.10.4"
 
 gem "jekyll", ">= 3.6.3"
 
